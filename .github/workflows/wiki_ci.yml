@@ -30,7 +30,7 @@ jobs:
         with:
           path: ./${DIR_SRC}
 
-      - name: Checkout wiki repo
+      - name: Checkout wiki repo  # Cannot be empty
         uses: actions/checkout@v3
         with:
           repository: ${{ env.ORG }}/${{ env.REPO_SOURCE }}.wiki
@@ -40,7 +40,7 @@ jobs:
 
       - name: Copy/Create file
         run: |
-          echo "Copying $FILE"
+          echo "Copying files from ./$DIR_SRC}/${DOC_DIR} to ./${DIR_WIKI}"
           cp -rf ./${DIR_SRC}/${DOC_DIR} ./${DIR_WIKI}
 
       - name: Push Project B

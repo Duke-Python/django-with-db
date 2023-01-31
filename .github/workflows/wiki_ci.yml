@@ -7,7 +7,7 @@ env:
   REPO_SOURCE: "django-with-db"  # from Github
   DIR_SRC: source-repo           # local dir name
   DIR_WIKI: wiki-repo            # local dir name
-  DOC_DIR: "doc/wiki"            # repository dir
+  DOC_DIR: "docs/wiki"            # repository dir
 
 # Controls when the action will run.
 on:

@@ -33,7 +33,7 @@ jobs:
       - name: Checkout wiki repo
         uses: actions/checkout@v3
         with:
-          repository: ${ORG}/${REPO_SOURCE}.wiki
+          repository: ${{ ORG }}/${{ REPO_SOURCE }}.wiki
           # Define WIKI token on Github
           token: ${{ secrets.WIKI_TOKEN }}
           path: ./${DIR_WIKI}

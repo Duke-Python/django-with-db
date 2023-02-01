@@ -5,7 +5,7 @@
 * [Developer Guide][developer_guide]
 * [News and Updates][news_updates]
 
-[intro]: Introduction.md
+[intro]: Introduction
 [deployment]: https://github.com/durhambikecoop/freehub/wiki/Deployment
 [user_guide]: https://github.com/durhambikecoop/freehub/wiki/User-Guide
 [developer_guide]: https://github.com/durhambikecoop/freehub/wiki/Developer-Guide

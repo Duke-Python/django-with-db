@@ -28,7 +28,7 @@ jobs:
       - name: Checkout source repo
         uses: actions/checkout@v3
         with:
-          path: ./${DIR_SRC}
+          path: ./${{ env.DIR_SRC }}
 
       - name: Checkout wiki repo  # Cannot be empty
         uses: actions/checkout@v3
@@ -36,7 +36,7 @@ jobs:
           repository: ${{ env.ORG }}/${{ env.REPO_SOURCE }}.wiki
           # Define WIKI token on Github
           token: ${{ secrets.WIKI_TOKEN }}
-          path: ./${DIR_WIKI}
+          path: ./${{ env.DIR_WIKI }}
 
       - name: Copy/Create file
         run: |

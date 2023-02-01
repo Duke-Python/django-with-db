@@ -41,6 +41,7 @@ jobs:
       - name: Copy/Create file
         run: |
           echo "Copying files from ./$DIR_SRC}/${DOC_DIR} to ./${DIR_WIKI}"
+          ls -al
           cp -rf ./${DIR_SRC}/${DOC_DIR}/* ./${DIR_WIKI}
 
       - name: Push Project B

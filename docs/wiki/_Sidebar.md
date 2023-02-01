@@ -6,7 +6,7 @@
 * [News and Updates][news_updates]
 
 [intro]: Introduction
-[deployment]: https://github.com/durhambikecoop/freehub/wiki/Deployment
-[user_guide]: https://github.com/durhambikecoop/freehub/wiki/User-Guide
-[developer_guide]: https://github.com/durhambikecoop/freehub/wiki/Developer-Guide
-[news_updates]: https://github.com/durhambikecoop/freehub/wiki/News-and-Updates
+[deployment]: Deployment
+[user_guide]: User-Guide
+[developer_guide]: Developer-Guide
+[news_updates]: News-and-Updates
